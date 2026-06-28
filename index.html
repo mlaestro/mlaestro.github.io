@@ -4,6 +4,7 @@
 <title>Vaibhav Bagga</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="assets/ml_logo.png" type="image/png">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -97,6 +98,17 @@ body.dark-theme .theme-toggle {
 }
 .theme-toggle:hover {
   opacity: 0.8;
+}.resume-download {
+  background-color: #fff !important;
+  color: #2196F3 !important;
+}
+.resume-download:hover {
+  background-color: #fff !important;
+  color: #0d47a1 !important;
+}
+.name-title {
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 </style>
 </head>
@@ -127,14 +139,14 @@ body.dark-theme .theme-toggle {
         <div class="w3-display-container">
           <img id="avatar" src="assets/avatar.jpg" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h1><font color="white">Vaibhav Bagga</font></h1>
+            <h1 class="name-title">Vaibhav Bagga</h1>
           </div>
         </div>
         <div class="w3-container">
           <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Machine Learning Engineer</p>
           <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>New Delhi</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>vaibagga@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>+91-9818413424</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="mailto:vaibagga@gmail.com">vaibagga@gmail.com</a></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="tel:+919818413424">+91-9818413424</a></p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue"></i>Skills</b></p>
@@ -215,10 +227,33 @@ body.dark-theme .theme-toggle {
             <li>Developed jobs to monitor the status of ML pipelines.</li>
             <li>Implemented functionality to Spark Framework to automate deployment of data pipelines.</li>
           </ul>
+          <hr>
+    
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Engineer-III / American Express</b></h5>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sept 2020 - Mar 2021</h6>
+          <ul>
+            <li>Worked with Mainframe Database Operations team</li>
+            <li>Created automated scripts using JCL and SQL for DB maintenance</li>
+        </ul>
           
 
 
-          <br>
+          <hr>
+        </div>
+
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Research Engineer / Netomi (Formerly MSG.AI)</b></h5>
+          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2019 - Jul 2019</h6>
+          <ul>
+            <li>Conducted research on Intent Classification for Chatbot using Transformers and Autoencoders.</li>
+            <li>Increased accuracy of Intent Classification models by 4%.</li>
+          </ul>
+          
+
+
+          <hr>
         </div>
       </div>
 
@@ -230,7 +265,7 @@ body.dark-theme .theme-toggle {
           <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug. 2016-Jun. 2020</h6>
           <ul>
             <li><b>CGPA</b>: 8.04/10</li>
-            <li><b>Relevant Coursework</b>: Data Structures and Algorithms, OS, DBMS, Statistics, Computer Architecture, Stochastic Processes</li>
+            <li><b>Relevant Coursework</b>: DSA, OS, DBMS, Statistics, Computer Architecture, Stochastic Processes</li>
           </ul>
         </div>
       </div>
@@ -244,14 +279,21 @@ body.dark-theme .theme-toggle {
   <!-- End Page Container -->
 </div>
 
+<div class="w3-container w3-blue w3-padding-32 w3-center" style="width: 100%;">
+  <h2 class="w3-wide">Want to know more about me/hire me?</h2>
+  <p class="w3-large">Feel free to explore my work and connect for opportunities.</p>
+  <a href="assets/resume.pdf" class="w3-button w3-white w3-text-blue w3-round resume-download" download>
+    <i class="fa fa-download w3-margin-right"></i>Download Resume
+  </a>
+</div>
+
 <footer class="w3-container w3-blue w3-center w3-margin-top">
   <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <a href="https://www.linkedin.com/in/vaibagga" target="_blank" class="w3-hover-opacity"><i class="fa fa-linkedin"></i></a>
+  <a href="mailto:vaibagga@gmail.com" class="w3-hover-opacity"><i class="fa fa-envelope"></i></a>
+  <a href="tel:+919818413424" class="w3-hover-opacity"><i class="fa fa-phone"></i></a>
+  <a href="https://github.com/vaibagga" target="_blank" class="w3-hover-opacity"><i class="fa fa-github"></i></a>
+  <a href="https://github.com/mlaestro" target="_blank" class="w3-hover-opacity"><i class="fa fa-github"></i></a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
 
