@@ -51,8 +51,10 @@
   { "title": "Discipline and Punish", "author": "Michael Foucault", "rating": 4 },
   { "title": "सूरज का सातवाँ घोड़ा", "author": "Dharamvir Bharati ", "rating": 4},
   { "title": "The Brain: The Story of You", "author": "David Eagleman", "rating": 4},
-  { "title": "सीपियाँ", "author": "Javed Akhtar", "rating": 4}
-
+  { "title": "On Belief", "author": "Slavoj Zizek", "rating": 4},
+  { "title": "Crime and Punishment", "author": "Fyodor Dostoevsky", "rating": 4.5},
+  { "title": "दीवार में एक खिड़की रहती थी", "author": "Vinod Kumar Shukla", "rating": 3},
+  { "title": "Farenheit 451", "author": "Ray Bradbury", "rating": 4}
   
 
 
