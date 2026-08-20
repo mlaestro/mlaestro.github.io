@@ -59,5 +59,7 @@
   { "title": "The Fall", "author": "Albert Camus", "rating": 4},
   { "title": "The Midnight Train", "author": "Matt Haig", "rating": 3.5},
   { "title": "Last Queen", "author": "Chitra Banerjee Divakaruni", "rating": 4},
-  { "title": "The Fall of the Kingdom of the Punjab", "author": "Khushwant Singh", "rating": 5}
+  { "title": "The Fall of the Kingdom of the Punjab", "author": "Khushwant Singh", "rating": 5},
+  { "title": "The Idiot", "author": "Fyodor Dostoevsky", "rating": 4},
+  {"title": "Nobody Can Love You More", "author": "Mayank Austen Soofi", "rating": 5}
 ]
