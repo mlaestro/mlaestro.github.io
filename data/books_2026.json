@@ -61,5 +61,16 @@
   { "title": "Last Queen", "author": "Chitra Banerjee Divakaruni", "rating": 4},
   { "title": "The Fall of the Kingdom of the Punjab", "author": "Khushwant Singh", "rating": 5},
   { "title": "The Idiot", "author": "Fyodor Dostoevsky", "rating": 4},
-  {"title": "Nobody Can Love You More", "author": "Mayank Austen Soofi", "rating": 5}
+  {"title": "Nobody Can Love You More", "author": "Mayank Austen Soofi", "rating": 5},
+  {"title": "Hot Money", "author": "Naomi Klein", "rating": 4},
+  {"title": "Why Women have better sex under socialism", "author": "Kristen R. Ghodsee", "rating": 4},
+  {"title": "War and Peace", "author": "Leo Tolstoy", "rating": 5},
+  {"title": "No is not enough", "author": "Naomi Klein", "rating": 5},
+  {"title": "How the world works", "author": "Noam Chomsky", "rating": 4},
+  {"title": "Rich dad Poor dad", "author": "Robert Kiyosaki", "rating": 1},
+  {"title": "The Virtue of Selfishness", "author": "Ayn Rand", "rating": 2},
+  {"title": "On Fire", "author": "Naomi Klein", "rating": 4},
+  {"title": "The Lives of Strangers", "author": "Chitra Banerjee Divakaruni", "rating": 3},
+  {"title": "Fractured Communities", "author": "Umar Khalid", "rating": 4.5},
+  {"title": "The Love Hypothesis", "author": "Ali Hazelwood", "rating": 3}
 ]
